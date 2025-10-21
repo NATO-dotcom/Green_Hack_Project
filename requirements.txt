@@ -1,8 +1,28 @@
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-httpx==0.25.1
-sqlalchemy==2.0.23
-pydantic==2.5.0
-python-dotenv==1.0.0
+# Core backend
+fastapi==0.115.0
+uvicorn==0.30.0
+
+# Database
+sqlalchemy==2.0.25
+pydantic==2.6.4
+
+# HTTP requests
+requests==2.31.0
+
+# Environment management
+python-dotenv==1.0.1
+
+# SMS integration (optional)
+twilio==9.0.0
 africastalking==1.2.5
-pytest==7.4.3
+
+# AI integration
+google-generativeai==0.7.0
+
+# Testing
+pytest==8.1.1
+httpx==0.27.0
+
+# Deployment
+gunicorn==21.2.0
+

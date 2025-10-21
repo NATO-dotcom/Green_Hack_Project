@@ -1,20 +1,15 @@
 from pydantic import BaseModel
-from typing import List, Optional
-from datetime import datetime
 
-class AlertSubscription(BaseModel):
+class SubscriptionBase(BaseModel):
     phone_number: str
     location: str
-    language: str = "en"
-    alert_types: List[str] = ["rain", "heat", "wind"]
+    language: str
+    alert_types: str
 
-class WeatherResponse(BaseModel):
-    location: str
-    temperature: float
-    humidity: int
-    rainfall: float
-    wind_speed: float
-    description: str
-    alerts: List[dict]
-    recommendations: List[str]
-    timestamp: datetime
+class SubscriptionCreate(SubscriptionBase):
+    pass
+
+class SubscriptionResponse(BaseModel):
+    message: str
+    sms_response: dict
+
