@@ -221,8 +221,8 @@ AI Tip: The weather is cloudy with 25°C. Carry an umbrella, and traders should 
 
 | Name              | Role                                  |
 | ----------------- | ------------------------------------- |
-| **Dinah Nato**    | Project Lead & Backend Developer      |
-| *(Add teammates)* | AI Integration / DevOps / UI Designer |
+| * Nato*           |    AI Integration / DevOps / & Backend Developer|
+| *Aldo & Derrick*  |    UI Designer |
 
 ---
 
