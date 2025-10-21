@@ -17,7 +17,7 @@ def get_weather(location: str):
 
 def generate_recommendation(weather_data):
     try:
-        model = genai.GenerativeModel("gemini-pro")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         description = weather_data["weather"][0]["description"]
         temp = weather_data["main"]["temp"]
         city = weather_data["name"]
