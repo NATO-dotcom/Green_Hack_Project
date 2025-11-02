@@ -217,15 +217,6 @@ AI Tip: The weather is cloudy with 25°C. Carry an umbrella, and traders should 
 
 ---
 
-## 👥 Contributors
-
-| Name              | Role                                  |
-| ----------------- | ------------------------------------- |
-| *Nato*            |    AI Integration / DevOps / & Backend Developer|
-| *Aldo & Derrick*  |    UI Designer |
-
----
-
 ## 📜 License
 
 This project is open-source under the **MIT License** — feel free to modify and improve it.
