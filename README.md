@@ -1,7 +1,7 @@
 
 ---
 
-# 🌦️ WeatherWise AI — Smart Weather Alert & Recommendation System
+# 🌦️ WeatherWise AI — Smart Weather Alert & Recommendation System for all people
 
 > **AI-powered weather alerts and safety recommendations for farmers, traders, and communities.**
 > Built with **FastAPI**, **OpenWeather API**, **Google Gemini AI**, and **SMS alerts**.
